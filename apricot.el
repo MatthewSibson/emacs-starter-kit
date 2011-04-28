@@ -1,3 +1,3 @@
 ;; Pretty color theme
-(color-theme-blackboard)
+(color-theme-twilight)
 
