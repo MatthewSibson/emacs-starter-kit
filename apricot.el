@@ -1,13 +1,9 @@
-;; Pretty color theme
-;;(color-theme-twilight)
-
+;; Start Emacs Client server
 (server-start)
 
 (require 'whitespace)
 (setq whitespace-style '(empty tabs lines-tail trailing))
 (global-whitespace-mode t)
-
-;; (setq whitespace-line-column 80)
 
 ;; Slime
 (setq inferior-lisp-program "/usr/local/bin/clisp")

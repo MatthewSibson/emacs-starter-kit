@@ -1,5 +1,5 @@
-;; Pretty color theme
-;;(color-theme-twilight)
+;; Fix path
+(setenv "PATH" "/Users/matthew/.golang/bin:/Users/matthew/.homebrew/Cellar/python/2.7.1/bin:/Users/matthew/.homebrew/bin:/Users/matthew/.homebrew/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/matthew/.rvm/bin")
 
 ;; Start server for emacsclient
 (server-start)
@@ -18,9 +18,6 @@
 (setq org-log-done t)
 ;; Agenda files
 (setq org-agenda-files (list "~/.org/work.org" "~/.org/home.org"))
-
-;; Make sure I'm really sure I want to close emacs
-(setq confirm-kill-emacs 'y-or-n-p)
 
 ;; Slime
 (load (expand-file-name "~/quicklisp/slime-helper.el"))
