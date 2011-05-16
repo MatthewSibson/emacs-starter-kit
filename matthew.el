@@ -10,5 +10,8 @@
 (require 'color-theme-solarized)
 (color-theme-solarized-dark)
 
+;; CoffeeScript major mode
+(require 'coffee-mode)
+
 ;; Make sure I'm really sure I want to close emacs
 (setq confirm-kill-emacs 'y-or-n-p)
